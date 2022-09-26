@@ -1,0 +1,84 @@
+.add--task{
+    border: 2px solid;
+    border-radius: 6px;
+    width: 90%;
+    height: 100px;
+    align-items: center;
+    margin: 20px auto;
+    display: inline-flex;
+    border-color: #93a3a0;
+    color: beige;
+    justify-content: space-around;
+  }
+
+.task--input{
+    height: 80%;
+    width: 80%;
+    border: none;
+    opacity: 0.8;
+    text-align: center; 
+  }
+.btn{
+    height: 50%;
+    width: 80px;
+    border-radius: 6px;
+    align-self: center;
+    background-color: #93a3a0;
+    border-color: #93a3a0;
+    color:beige;
+    font-size: medium;
+  }
+
+.task--notCompleted {
+    height:100px;
+    display: inline-flex;
+    align-items: center;
+    
+    border: 2px solid #a392a2;
+    border-radius: 6px;
+    width: 90%;
+    height: 100px;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: #a392a2;
+  }
+  
+  .task--content {
+    width: 80%;
+    color: whitesmoke;
+    font-size: 20px;
+    
+  }
+  .icons i {
+    padding: 0 15px 0 15px;
+    cursor: pointer;
+    color:bisque;
+    font-size: large;
+  }
+
+  .icons i:hover {
+    color: green;
+  }
+
+  .error {
+    color: #9f3a38;
+  }
+  .joke {
+    border: 2px solid;
+    border-radius: 6px;
+    width: 90%;
+    height: 100px;
+    align-items: center;
+    margin-top: 20px;
+    display: inline-flex;
+    border-color: #93a3a0;
+    background-color: #93a3a0;
+    color: whitesmoke;
+  }
+  .joke--text {
+    text-align: center;
+    height: auto;
+    width: 100%;
+    margin: 0 10px 0 10px;
+    
+  }

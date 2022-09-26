@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  align-items: center;
+  
+}
+
+
+.add--task{
+  border: 2px solid;
+  border-radius: 6px;
+  width: 90%;
+  height: 100px;
+  align-items: center;
+  margin: 20px auto;
+  display: inline-flex;
+  border-color: #93a3a0;
+  color: beige;
+  justify-content: space-around;
+}
+
+.task--input{
+  height: 80%;
+  width: 80%;
+  border: none;
+  opacity: 0.8;
+  text-align: center;
+  
+  
+}
+
+.btn{
+  height: 80%;
+  width: 80px;
+  border-radius: 5px;
+  align-self: center;
+  background-color: #93a3a0;
+  border-color: #93a3a0;
+  color:beige;
+  font-size: medium;
+}
+
+.task--completed {
+  background-color: gray;
+  height:100px;
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 6px;
+  width: 90%;
+  height: 100px;
+  margin-top: 20px;
+  border-color: gray;
+  color: bisque;
+  opacity: 0.8;
+  
+}
+.task--notCompleted {
+  height:100px;
+  display: inline-flex;
+  align-items: center;
+  
+  border: 2px solid #a392a2;
+  border-radius: 6px;
+  width: 90%;
+  height: 100px;
+  margin-top: 20px;
+  justify-content: center;
+  background-color: #a392a2;
+}
+
+.task--content {
+  width: 80%;
+  color: whitesmoke;
+  
+}
+.icons {
+  top: 50%;
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+  
+}
+.icons span{
+  display: inline-block;
+  margin: 0 10px 0 10px;
+  cursor: pointer;
+  color:bisque;
+  font-size: large;
+}
+
+.joke {
+  border: 2px solid;
+  border-radius: 6px;
+  width: 90%;
+  height: 100px;
+  align-items: center;
+  margin-top: 20px;
+  display: inline-flex;
+  border-color: #93a3a0;
+  background-color: #93a3a0;
+  color: whitesmoke;
+}
+.joke--text {
+  text-align: center;
+  height: auto;
+  width: 100%;
+  margin: 0 10px 0 10px;
+  
+}
+.icons span:hover {
+  color:purple;
+}
