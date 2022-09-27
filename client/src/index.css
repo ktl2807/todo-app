@@ -10,7 +10,17 @@
     color: beige;
     justify-content: space-around;
   }
-
+.update--task {
+  
+    border-radius: 6px;
+    width: 90%;
+    height: 100px;
+    align-items: center;
+    margin: 20px auto;
+    display: inline-flex;
+    color: beige;
+    justify-content: space-around;
+}
 .task--input{
     height: 80%;
     width: 80%;

@@ -10,6 +10,7 @@ const TodoListPage = ()=>{
 
     const [state, dispatch] = useContext(TodoContext);
     
+    // fetch data
     useEffect(() => {
         const fetchData = async () => {
             try{

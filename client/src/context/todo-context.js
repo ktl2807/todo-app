@@ -2,6 +2,7 @@ import React, {useReducer, createContext}from 'react';
 
 export const TodoContext = createContext();
 
+// initial state
 const initialState = {
     todos:[],
     todo: {},
@@ -47,7 +48,7 @@ const reducer = (state, action)=> {
         }
       }
       default:
-        throw new Error("here is the problems");
+        throw new Error();
     }
     
   }

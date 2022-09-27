@@ -8,9 +8,8 @@ const TodoForm = ({todo}) => {
 
   const [state, dispatch] = useContext(TodoContext);
   const {register, handleSubmit} = useForm({defaultValues: todo,});
-  
 
-
+  //add new task to todo list
   const addTodo = async data =>{
     try {
         const res = await axios.post('http://localhost:3030/todoapp', data);
@@ -34,7 +33,6 @@ const TodoForm = ({todo}) => {
     < form className="add--task" onSubmit={handleSubmit(onSubmit)} >
         <input type="text" className='task--input' placeholder="ex: Do Homework" 
         {...register('todoText')}  />   
-         
         <button className="btn" type='submit' >Add</button>
     </form>
   )

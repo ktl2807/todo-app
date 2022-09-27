@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 function Jokes () {
     const [joke, setJokes] = React.useState([])
     
+    //get random joke data from chuck norris
     const fetchJokes = async ()=>{
         Axios.get(`https://api.chucknorris.io/jokes/random?category=dev`)
         .then(res=>{
@@ -36,8 +37,6 @@ function Jokes () {
                 
             )
         })}
-        
-        
         </>
     
     
