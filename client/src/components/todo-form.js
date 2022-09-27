@@ -25,7 +25,8 @@ const TodoForm = ({todo}) => {
 
   
   const onSubmit= async data =>{
-    await addTodo(data);
+    let newData = {todoText:data.todoText,isCompleted:false, time:Date()}
+    await addTodo(newData);
   };
 
 
