@@ -9,7 +9,7 @@ import { flashErrorMessage } from "../components/flash-message";
 const TodoListPage = ()=>{
 
     const [state, dispatch] = useContext(TodoContext);
-
+    
     useEffect(() => {
         const fetchData = async () => {
             try{
@@ -23,7 +23,8 @@ const TodoListPage = ()=>{
         }};
         fetchData();
         
-      }, [dispatch]);
+      }, [,state, dispatch]);
+
 
     return (
         <div>
