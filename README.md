@@ -1,5 +1,20 @@
-# Todo-App
+# Todo App
+
 A simple todo list app built in React and feathers.js
 
-Fetures
-Allow you to edit, mark complete, and delete todo
+## Features
+
+- Edit todo
+- Delete todo
+- Add new todo
+
+## Tech
+
+- [React] - HTML enhanced for web apps!
+
+
+
+
+
+
+
