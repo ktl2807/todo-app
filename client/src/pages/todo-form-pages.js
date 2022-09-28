@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
-import TodoForm from "../components/todo-form";
-import { TodoContext } from "../context/todo-context";
+import TodoForm from "../components/Todo-form";
+import { TodoContext } from "../context/Todo-context";
 
 
 

@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import axios from "axios";
-import { TodoContext } from "../context/todo-context";
-import { flashErrorMessage, FlashMessage } from "./flash-message";
+import { TodoContext } from "../context/Todo-context";
+import { flashErrorMessage, FlashMessage } from "./Flash-message";
 import TextField from '@mui/material/TextField';
 
 

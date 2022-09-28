@@ -1,8 +1,8 @@
 import React, {useContext, useEffect} from "react";
 import axios from "axios";
-import TodoList from "../components/todo-list";
-import { TodoContext } from "../context/todo-context";
-import { flashErrorMessage } from "../components/flash-message";
+import TodoList from "../components/Todo-list";
+import { TodoContext } from "../context/Todo-context";
+import { flashErrorMessage } from "../components/Flash-message";
 
 
 

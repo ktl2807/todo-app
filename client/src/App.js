@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'semantic-ui-react';
-import TodoListPage from './pages/todo-list-pages';
-import TodoFormPage from './pages/todo-form-pages';
+import TodoListPage from './pages/Todo-list-pages';
+import TodoFormPage from './pages/Todo-form-pages';
 import Jokes from './components/Jokes';
 
 

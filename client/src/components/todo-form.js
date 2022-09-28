@@ -1,8 +1,8 @@
 import React, {useContext, useState} from 'react';
 import { useForm } from 'react-hook-form';
-import { TodoContext } from '../context/todo-context';
+import { TodoContext } from '../context/Todo-context';
 import axios from 'axios';
-import { flashErrorMessage } from './flash-message';
+import { flashErrorMessage } from './Flash-message';
 
 const TodoForm = ({todo}) => {
 
