@@ -6,7 +6,6 @@ import TextField from '@mui/material/TextField';
 
 
 
-
 const Todo = ({todo})=>{
     const [state, dispatch]= useContext(TodoContext)
     const [updateText, setUpdateText] = useState('')
@@ -20,15 +19,16 @@ const Todo = ({todo})=>{
     // get updated task text
     const editTodo = (value)=>{
         setUpdateText(value)
+    
     }
     
     // update task text to orginal todo
     const updateEditedTodo = async item =>{
-        
+       
         let updatedTodo = {...item, todoText:updateText, isEdit:false}
         await updateTodo(updatedTodo)
-        setUpdateText('')
-    }
+        setUpdateText('')}
+        
    
     //delete todo item 
     const deleteTodo = async data =>{
@@ -48,7 +48,6 @@ const Todo = ({todo})=>{
     // mark todo item completed and updata it
     const completeTodo =async item=>{
         let newTodoData = {...item, isCompleted:!item.isCompleted}
-        console.log(newTodoData)
         
         await updateTodo(newTodoData)
     }
@@ -80,8 +79,8 @@ const Todo = ({todo})=>{
                 {todo.isEdit ? 
                     <form className="update--task" >
                         <TextField required id="standard-required" label="Required" 
-                            defaultValue={todo.todoText} 
-                            InputProps={{disableUnderline: false}}
+                            defaultValue={todo.todoText} error={updateText=== ""} helperText={updateText === "" ? 'Please enter a task!' : ' '}
+                            InputProps={{disableUnderline: false, }}
                             sx={{ width:`90%`,input: { color: 'bisque', fontSize:'16px', textAlign:'center'}}} variant="standard" onChange={(event)=>editTodo(event.target.value, todo)} />
                         <button className="btn" onClick={()=>updateEditedTodo(todo)} >update</button></form> :
                         <TextField required id="standard-read-only-input" 
