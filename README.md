@@ -20,7 +20,7 @@ npm install @mui/material @emotion/react @emotion/styled
 -install Flash Message
 npm install react-flash-message
 
-###start app
+### start app
 
 #### `npm start`
 Changes directory to client and runs the app in the development mode.\
