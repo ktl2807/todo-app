@@ -9,7 +9,7 @@ const App =() => {
   return (
     <Container>
       <Container >{<TodoFormPage/>}</Container>
-      <Container path='/'> {<TodoListPage />}</Container>
+      <Container > {<TodoListPage />}</Container>
       <Container>{< Jokes />}</Container>
       
     </Container>
