@@ -5,14 +5,19 @@ A simple todo list app built in React and feathers.js
 ## Features
 
 - Edit todo
-![截圖 2022-09-29 20 33 14](https://user-images.githubusercontent.com/86973641/193184633-d8750a04-a210-4f17-98ca-b5d37a80a6af.png)
-
+![截圖 2022-09-29 20 37 09](https://user-images.githubusercontent.com/86973641/193184882-f2b8829a-d0a9-4bf6-81fd-f91f12ca1b7b.png)
 - Delete todo
+  Delete task by clicking trash can icon.
 - Add new todo
+![截圖 2022-09-29 20 39 09](https://user-images.githubusercontent.com/86973641/193185112-764a45b8-394c-4017-8a7a-489b36246efd.png)
+- mark todo as completed
+  Task' color will changed to gray, when task was marked as done.
+![截圖 2022-09-29 20 40 16](https://user-images.githubusercontent.com/86973641/193185206-a19f52d0-785a-44bd-ba4b-23fcbb96cce6.png)
 
 ## Tech
 
 - [React] - HTML enhanced for web apps!
+- [Feathers. js]
 
 ## How to start the app
 
