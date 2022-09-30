@@ -43,7 +43,13 @@ You may also see any lint errors in the console.
 ### start feathers service
 
 #### `npm start`
-Changes directory to backend and runs the app in the development mode.\
+1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
+2. Install your dependencies
+
+    ```
+    cd path/to/backend
+    npm install
+    ```
 
 
 
