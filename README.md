@@ -5,6 +5,8 @@ A simple todo list app built in React and feathers.js
 ## Features
 
 - Edit todo
+![截圖 2022-09-29 20 33 14](https://user-images.githubusercontent.com/86973641/193184633-d8750a04-a210-4f17-98ca-b5d37a80a6af.png)
+
 - Delete todo
 - Add new todo
 
