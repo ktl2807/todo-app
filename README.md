@@ -13,7 +13,9 @@ A simple todo list app built in React and feathers.js
 - mark todo as completed
   Task' color will changed to gray, when task was marked as done.
 ![截圖 2022-09-29 20 40 16](https://user-images.githubusercontent.com/86973641/193185206-a19f52d0-785a-44bd-ba4b-23fcbb96cce6.png)
-- display random jokes from (https://api.chucknorris.io/jokes/random?category=dev)
+- display three random jokes from (https://api.chucknorris.io/jokes/random?category=dev)
+![截圖 2022-09-29 20 46 44](https://user-images.githubusercontent.com/86973641/193185960-643e6924-86a3-4c5e-b0a1-04ce612f16ef.png)
+
 
 ## Tech
 
