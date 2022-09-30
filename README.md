@@ -29,6 +29,10 @@ A simple todo list app built in React and feathers.js
 npm install @mui/material @emotion/react @emotion/styled 
 - install Flash Message \
 npm install react-flash-message
+- install semantic-ui-css \
+npm run postinstall
+- install fomantic-ui \
+npm install --ignore-scripts fomantic-ui
 
 ### start app
 
