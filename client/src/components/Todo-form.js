@@ -31,7 +31,7 @@ const TodoForm = ({todo}) => {
 
   return (
     < form className="add--task" onSubmit={handleSubmit(onSubmit)} >
-        <input required type="text" className='task--input' placeholder="ex: Do Homework" minLength={2}
+        <input required type="text" idata-testid='addTaskInput' className='task--input' placeholder="ex: Do Homework" minLength={2}
         {...register('todoText')}  />   
         <button className="btn" type='submit' >Add</button>
     </form>

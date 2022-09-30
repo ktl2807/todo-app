@@ -24,7 +24,7 @@ const TodoListPage = ()=>{
         }};
         fetchData();
         
-      }, [,state, dispatch]);
+      }, [state, dispatch]);
 
 
     return (
